@@ -1,322 +1,465 @@
 <!DOCTYPE html>
-<html>
-<title>Portfolio</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/w3.css">
-<link href="css/style.css" rel="stylesheet"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;background:#002f84;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
-</style>
-<body class="w3-black">
+<html lang="en">
 
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-  </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
-  </a>
-  <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-suitcase w3-xxlarge"></i>
-    <p>PROJECTS</p>
-  </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>CONTACT</p>
-  </a>
-</nav>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-  </div>
-</div>
+    <title>Resume</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
 
-<!-- Page Content -->
-<div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">Hi, I'm</span> Shijin Raj</h1>
-    <p>A Passionate Techy, who is looking to build a career in advanced web development.</p>
-    <img src="img/profile_1.jpg" style="border-radius: 50%;" alt="boy" class="w3-image" width="200" height="500">
-  </header>
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">Career Objective</h2>
-    <hr style="width:200px" class="w3-opacity">
-    <p>
-        To work in a company where my knowledge and skills are utilized and 
-        continuously improving my skills as a professional.
-    </p>
-    <!--Experience Summary-->
-    <h3 class="w3-text-light-grey">Experience Summary</h3>
-    <hr style="width:200px" class="w3-opacity">
-    <p>
-        15 months IT industry experience as an ETL Developer in Reputed MNC. Tools used - SAP-BODS, MS SQL Server Management Studio.</p><p>
-        Proficient knowledge in MySQL Queries & Relational DBMS.      
-    </p>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-    <h3 class="w3-padding-16 w3-text-light-grey">Technical Skills</h3>
-    <hr style="width:200px" class="w3-opacity">
-    <p class="w3-wide">Core Programming - Java/C++/C/JavaScript</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div>
-    <p class="w3-wide">DBMS - MySQL</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
-    </div>
-    <p class="w3-wide">DBMS - NoSQL (MongoDB,Firebase)</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
-    </div>
-    <p class="w3-wide">PHP Server side scripting - CodeIgniter</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
-    </div>
-    <p class="w3-wide">NodeJS Server side scripting - ExpressJS</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
-    </div>
-    <p class="w3-wide">Front-End Web Development - HTML,CSS,Bootstrap,jQuery,Ajax</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
-    </div>
-    <p class="w3-wide">Java Server side scripting - JSP/Servlets</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
-    </div>
-    <br>
-    <h3 class="w3-padding-16 w3-text-light-grey">Non-Technical Skills</h3>
-    <hr style="width:200px" class="w3-opacity">
-    <p class="w3-wide">Communication - Verbal & Written</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-    </div>
-    <p class="w3-wide">Problem solving -  Logical</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-    </div>
-    <p class="w3-wide">Problem solving -  Analytical</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div>
-    <p class="w3-wide">Collaboration - Team Player</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-    </div>
-    <p class="w3-wide">Quick Learning</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div>
-    <br>
-  <!-- Counters  
-    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">11+</span><br>
-        Partners
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">55+</span><br>
-        Projects Done
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">89+</span><br>
-        Happy Clients
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">150+</span><br>
-        Meetings
-      </div>
-    </div>
--->
-    <button class="w3-button w3-light-grey w3-padding-large w3-section" onclick="window.location='pdf/Resume_Shijin.pdf';">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-      <i class="fa fa-download"></i> Download Resume
-    </button>
-    
-    <!-- Grid for pricing tables 
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
 
-    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">5GB Storage</li>
-          <li class="w3-padding-16">Mail Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 10</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
+</head>
 
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">50GB Storage</li>
-          <li class="w3-padding-16">Endless Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 25</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <!-- End Grid/Pricing tables -->
-    
-    <!-- Testimonials -->
-   
-    <!--
-        
-    <img src="img/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
-    <p>John Doe saved us from a web disaster.</p><br>
-    
-    <img src="img/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
-    <p>No one is better than John Doe.</p>
-</div>
-  <!-- End About Section -->
-  <!--
+<body>
 
-    <div class="w3-padding-64 w3-content" id="Testimonials">
-      <h2 class="w3-text-light-grey">Testimonials</h2>
-      <hr style="width:200px" class="w3-opacity">
-      <p>" Shijin is a good team player. As a fresher his responsiveness & Ownership towards completion of work is excellent.
-        Always interact properly with stakeholders for fast resolution of issues by himself. "
-      </p>
-      <p>- Karthik Chandramouli, Team Lead.</p>
-    </div>
-  -->
-  <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="projects">
-    <h2 class="w3-text-light-grey">My Projects</h2>
-    <hr style="width:200px" class="w3-opacity">
-    <!--<p>PROJECTS</p>!-->
+    <!-- ======= Mobile nav toggle button ======= -->
+    <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
-    <div class="project-content">
-      <div class="card">
-        <div class="content">
-          <h2 class="title">Election Management System - PHP</h2>
-          <p class="copy">A secure voting system with bio-metric voter verification (PHP CodeIgniter Project)</p>
-          <a class="btn" href="https://github.com/ShijinRaj0/ElectionManagement.git">View Code</a>
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex flex-column justify-content-center">
+
+        <nav class="nav-menu">
+            <ul>
+                <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+                <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+                <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+                <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+                <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+            </ul>
+        </nav>
+        <!-- .nav-menu -->
+
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center">
+        <div class="container" data-aos="zoom-in" data-aos-delay="100">
+            <h1>Shijin Raj</h1>
+            <p>I'm <span class="typed" data-typed-items=" a Web Developer, an Engineer, an ETL Developer"></span></p>
+            <div class="social-links">
+                <a href="https://facebook.com/shijinraj.arakkan" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://instagram.com/_shijin_raj" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/shijin-raj-4791a3200" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="content">
-          <h2 class="title">Internet Banking - JSP Servlets</h2>
-          <p class="copy">Net banking portal with features such as Money transfer and much more</p>
-          <p> Code will be uploaded soon..!</p>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>About</h2>
+                    <p>Passionate in problem solving and love to turn technical challenges into solutions and useful experience.
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-8 pt-4 pt-lg-0 content">
+                        <h3>Career Objective</h3>
+                        <p class="font-italic">
+                            To work in a company where my knowledge and skills are utilized and continuously improving my skills as a professional.
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +91 7012728594</li>
+                                    <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Kannur, Kerala, IN.</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 23</li>
+                                    <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> B.Tech in Computer Science</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>
+                            Innovative and solution oriented in developing programs. Proven ability to optimize the code in reusable fashion. After having great experience as an ETL developer in reputed MNC, now looking for a career breakthrough and switch to Web Development domain.
+                            Possess a Bachelor degree in Computer Science and Engineering. Good verbal, written and communication skills. Excellent Team Player. Responsible towards overall completion of project apart from the task which are assigned.
+                            Proven ability to communicate challenges to the right stackholders and finding solutions in stipulated time period. Always happy to coordinate with teammates, get suggestions from them to improve and also helping them in case
+                            they are in need.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End About Section -->
+
+        <!-- ======= Skills Section ======= -->
+        <section id="skills" class="skills section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Skills</h2>
+                    <p>Tools/Technologies which I'm confident so far. Still a lot to learn, but keeping updated as possible.</p>
+                </div>
+
+                <div class="row skills-content">
+
+                    <div class="col-lg-6">
+
+                        <div class="progress">
+                            <span class="skill">HTML <i class="val">80%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill">CSS <i class="val">70%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill">JavaScript <i class="val">80%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <span class="skill">jQuery & Ajax <i class="val">75%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <span class="skill">SAP BODS - Data Migration <i class="val">85%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="progress">
+                            <span class="skill">PHP - CodeIgniter<i class="val">80%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill">NodeJS - ExpressJS <i class="val">75%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill">Relational DBMS - MS SQL <i class="val">75%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <span class="skill">NoSQL - MongoDB <i class="val">65%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <span class="skill">Core Java <i class="val">80%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Skills Section -->
+
+        <!-- ======= Resume Section ======= -->
+        <section id="resume" class="resume">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Resume</h2>
+                    <p></p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3 class="resume-title">Sumary</h3>
+                        <div class="resume-item pb-0">
+                            <h4>Shijin Raj A</h4>
+                            <p><em>
+                          
+                            </em></p>
+                            <ul>
+                                <li>Kannur, Kerala, IN.</li>
+                                <li>(+91) 7012728594</li>
+                                <li>shijin802@gmail.com</li>
+                            </ul>
+                        </div>
+
+                        <h3 class="resume-title">Education</h3>
+                        <div class="resume-item">
+                            <h4>Bachelor of Technology - Computer Science & Engg.</h4>
+                            <h5>2015 - 2019</h5>
+                            <p><em>Malabar Institute of Technology, Kannur, Kerala.</em></p>
+                            <p>Graduated from APJ Abdul Kalam Technological University Kerala (KTU) in 2019 with <strong>7.01</strong> CGPA </p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Kerala HSC Plus Two - Computer Science</h4>
+                            <h5>2013 - 2015</h5>
+                            <p><em>Govt.HSS Cherukunnu, Kannur, Kerala.</em></p>
+                            <p> Higher secondary education in Govt.HSS Cherukunnu with 80% aggregate marks in Computer Science Stream. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="resume-title">Professional Experience</h3>
+                        <div class="resume-item">
+                            <h4>Project Engineer - ETL Developer</h4>
+                            <h5>2019 - Present</h5>
+                            <p><em>Wipro Ltd., Bengaluru, IN </em></p>
+                            <ul>
+                                <li>After 1 Month training in Java / JSP Servlet Web development, tagged to Data Migration domain in Wipro's internal Project.</li>
+                                <li>Mastered SAP BODS tool and learnt many skills from senior developers regarding optimization of code</li>
+                                <li>Received appreciation from team lead and 450 pts in Winner's circle and Victory league badge for being a team player and possessing good ownership towards work.</li>
+                                <li>Received appreciation for solving technical challenges within team and help team to deliver things in stipulated time period.</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>PHP Developer - Intern</h4>
+                            <h5>1 Month</h5>
+                            <p><em>Alison's Infomatics, Kannur, Kerala</em></p>
+                            <ul>
+                                <li>Worked in multiple development projects and familiarized the concept of web development</li>
+                                <li>Live projects include medical shopping site, work promotion site etc. </li>
+                                <li>Server side scripting was done using WAMP Stack and PHP CodeIgniter</li>
+                                <li>Client side scripting was done using HTML, CSS, JS, jQuery, Ajax and Bootstrap. </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Resume Section -->
+
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Portfolio</h2>
+                    <p>Personal projects done for better understanding and learning the technology. Most projects are built in MVC architecture.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">All Projects</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+
+
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Election Management</h4>
+                                <p>An E-Voting System for bio-metric verified voting</p>
+                                <div class="portfolio-links">
+                                    <!-- <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="View Demo"><i class="bx bx-play-circle"></i></a>-->
+                                    <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/portfolio-wfh.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Work From Home Manager</h4>
+                                <p>Online system to manage employees working from home</p>
+                                <div class="portfolio-links">
+                                    <a href="portfolio-details-wfh.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Card 3</h4>
+                                <p>Card</p>
+                                <div class="portfolio-links">
+                                    <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                                    <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+
+            </div>
+        </section>
+        <!-- End Portfolio Section -->
+
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Contact</h2>
+                </div>
+
+                <div class="row mt-1">
+
+                    <div class="col-lg-4">
+                        <div class="info">
+                            <div class="address">
+                                <i class="icofont-google-map"></i>
+                                <h4>Location:</h4>
+                                <p>Kannur, Kerala, INDIA.</p>
+                            </div>
+
+                            <div class="email">
+                                <i class="icofont-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>shijin802@gmail.com</p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="icofont-phone"></i>
+                                <h4>Call:</h4>
+                                <p>+91 7012728594</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-8 mt-5 mt-lg-0">
+
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="form-row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                    <div class="validate"></div>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                    <div class="validate"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                <div class="validate"></div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                            </div>
+                            <div class="text-center"><button type="submit">Send Message</button></div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Contact Section -->
+
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <h3>Shijin Raj</h3>
+            <div class="social-links">
+                <a href="https://facebook.com/shijinraj.arakkan" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/_shijin_raj/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/shijin-raj-4791a3200" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: [license-url] -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="content">
-          <h2 class="title">WFH Management System - PHP</h2>
-          <p class="copy">Web app to manage employees in the new normal</p>
-          <p> Code will be uploaded soon..!</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="content">
-          <h2 class="title">Election Mngt Advanced - NodeJS</h2>
-          <p class="copy">A more feature-rich system for handling elections inside an organisation</p>
-          <p> Code will be uploaded soon..!</p>
-        </div>
-      </div>
-    </div>
-    
+    </footer>
+    <!-- End Footer -->
 
+    <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+    <div id="preloader"></div>
 
-</div>
-    <!-- Grid for photos 
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="img/wedding.jpg" style="width:100%">
-        <img src="img/rocks.jpg" style="width:100%">
-        <img src="img/sailboat.jpg" style="width:100%">
-      </div>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
 
-      <div class="w3-half">
-        <img src="img/underwater.jpg" style="width:100%">
-        <img src="img/chef.jpg" style="width:100%">
-        <img src="img/wedding.jpg" style="width:100%">
-        <img src="img/p6.jpg" style="width:100%">
-      </div>
-    </div>
-    <!-- End photo grid -->
-  <!-- End Portfolio Section -->
-
-
-  <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Contact Me</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Kannur, Kerala, IN.</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: (+91) 7012728594</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: shijin802@gmail.com</p>
-    </div><br>
-    <!--
-    <p>Let's get in touch. Send me a message:</p>
-
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
-   End Contact Section -->
-  </div>
-  
-    <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <!-- End footer -->
-  </footer>
-
-<!-- END PAGE CONTENT -->
-</div>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
